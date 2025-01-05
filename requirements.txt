@@ -1,0 +1,9 @@
+random
+json
+Faker
+datetime
+streamlit
+requests
+certifi
+pandas
+openpyxl
