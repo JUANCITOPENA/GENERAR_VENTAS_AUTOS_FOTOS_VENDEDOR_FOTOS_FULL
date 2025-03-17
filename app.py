@@ -1627,7 +1627,7 @@ def generar_factura(clientes, vendedores, vehiculos, fecha_rango, id_factura, ve
 
     for _ in range(num_items):
         producto = random.choice(vehiculos)
-        cantidad = random.randint(1, 10)
+        cantidad = random.randint(1, 5)
 
         costo = producto['precio_compra'] * cantidad
         total_producto = producto['precio_venta'] * cantidad
